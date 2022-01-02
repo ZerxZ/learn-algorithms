@@ -1,3 +1,9 @@
+/**
+ * 二分查找
+ * @param {Array} list 
+ * @param {any} item 
+ * @return { number |null }
+ */
 export function bynarySeach<T>(list:T[],item:T) {
   let low = 0
   let high = list.length - 1
